@@ -9,16 +9,16 @@ load_dotenv()
 
 # frontend of streamlit
 st.set_page_config(
-    page_title="nvAI chatBOT!",
+    page_title="nvAI HelpBOT!",
     page_icon=":brain:",  # cute emoji
     initial_sidebar_state="expanded",
     layout="centered", 
 )
 
 
-st.title("nvAI ChatBOT")
+st.title("nvAI HelpBOT")
 
-st.markdown("nvAI Chatbot is dedicated for any queries related to Brain Tumour ")
+st.markdown("nvAI Helpbot is dedicated for any queries related to Brain Tumour ")
 \
 
 
