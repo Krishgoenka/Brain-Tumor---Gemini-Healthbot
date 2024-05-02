@@ -49,7 +49,7 @@ for message in st.session_state.chat_session.history:
     with st.chat_message(translate_role_for_streamlit(message.role)):
         st.markdown(message.parts[0].text)
 
-prompt="you are a skilled doctor your work is to answer the question related to human body specially human brain which is aksed by the user .use technnical terms . if question is not somehow related to medical feild or human brain then just reply Please ask question related to daignosis "
+prompt="you are a skilled doctor your work is to answer the question related to human brain tumor only .specially human brain which is aksed by the user .use technnical terms only  . if question is not somehow related to medical feild or human brain tumor then just reply Please ask question related to daignosis "
 
 
 user_prompt = st.chat_input("Ask your question here...")
